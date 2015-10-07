@@ -14,5 +14,21 @@ namespace ConsoleApplication2
            { SimpleCi.kg, 1},
            { SimpleCi.s, -2}
         };
+
+        public static Dictionary<Type, int> J = new Dictionary<Type, int>()
+        {
+           { SimpleCi.kg, 1},
+           { SimpleCi.m, 2},
+           { SimpleCi.s, -2}
+        };
+
+        public static Dictionary<Type, int> W = new Dictionary<Type, int>()
+        {
+           { SimpleCi.kg, 1},
+           { SimpleCi.m, 2},
+           { SimpleCi.s, -2}
+        };
+
+        
     }
 }

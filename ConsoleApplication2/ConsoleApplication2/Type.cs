@@ -8,14 +8,14 @@ namespace ConsoleApplication2
 {
     class Type
     {
-        public string name;
+        public string Name;
 
-        public int power;
+        public int Power;
 
         public Type(string name, int power)
         {
-            this.name = name;
-            this.power = power;
+            this.Name = name;
+            this.Power = power;
         }
     }
 }

@@ -11,10 +11,10 @@ namespace ConsoleApplication2
         static void Main(string[] args)
         {
 
-            Value v1 = new Value(5,DerivativesCi.N);
+            Value v1 = new Value(9,DerivativesCi.N);
             Value v2 = new Value(2, SimpleCi.mol);
 
-            var v3 = v1 * v2;
+            var v3 = v1 / v2;
 
         }
     }
